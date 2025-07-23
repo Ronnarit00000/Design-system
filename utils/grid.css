@@ -1,0 +1,32 @@
+.grid{
+   display: grid;
+   gap: 1em;
+}
+
+.grid.grid-row{
+   grid-auto-flow: column;
+}
+
+.grid.grid-auto-fit{
+   grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+}
+
+.grid.grid-col-1{
+   grid-template-columns: repeat(1, 1fr);
+}
+
+.grid.grid-col-2{
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid.grid-col-3{
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid.grid-col-4{
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid.grid-col-5{
+   grid-template-columns: repeat(5, 1fr);
+}
