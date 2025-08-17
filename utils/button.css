@@ -1,0 +1,51 @@
+.btn{
+   padding-block: var(--size-150);
+   padding-inline: var(--size-250);
+   font-size: var(--fs-500);
+   font-weight: 400;
+   border: var(--size-75) solid var(--bg-btn, gray);
+   background: var(--bg-btn, #fff);
+   color: var(--clr-btn, #000);
+   width: fit-content;
+   height: fit-content;
+}
+
+.btn.btn--primry{
+   --bg-btn: var(--clr-primry);
+   --clr-btn: var(--clr-light);
+}
+
+.btn.btn--secondary{
+   --bg-btn: var(--clr-secondary);
+   --clr-btn: var(--clr-light);
+}
+
+.btn.btn--success{
+   --bg-btn: var(--clr-success);
+   --clr-btn: var(--clr-light);
+}
+
+.btn.btn--danger{
+   --bg-btn: var(--clr-danger);
+   --clr-btn: var(--clr-light);
+}
+
+.btn.btn--warning{
+   --bg-btn: var(--clr-warning);
+   --clr-btn: var(--clr-dark);
+}
+
+.btn.btn--info{
+   --bg-btn: var(--clr-info);
+   --clr-btn: var(--clr-dark);
+}
+
+.btn.btn--light{
+   --bg-btn: var(--clr-light);
+   --clr-btn: var(--clr-dark);
+}
+
+.btn.btn--dark{
+   --bg-btn: var(--clr-dark);
+   --clr-btn: var(--clr-light);
+}
